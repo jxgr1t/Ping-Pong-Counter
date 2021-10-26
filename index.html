@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+    <div id="app" draggable="true">
+			<div>
+      <img
+        src="https://images.unsplash.com/photo-1611251135345-18c56206b863?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpbmclMjBwb25nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      />
+			<p>Ping Pong Score Keeper</p>
+		</div>
+      <div id="scoreboard">
+        <h1 id="playerOneScore"></h1>
+        <h1>to</h1>
+        <h1 id="playerTwoScore"></h1>
+      </div>
+      <p>Use the buttons below to keep score</p>
+      <div id="playingTo">
+        <h2>Playing To</h2>
+        <select id="playingToScore" name="playingtoscore">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4" selected>4</option>
+        </select>
+      </div>
+      <div id="btn-group">
+        <button id="p1Btn">+1 Player One</button>
+        <button id="p2Btn">+1 Player Two</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
