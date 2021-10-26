@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  margin:24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:568px;
+  width:320px;
+  background:white;
+  box-shadow: 4px 10px 16px rgba(0,0,0,.12)
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  width:320px;
+}
+
+#scoreboard {
+  display: flex;
+  padding: 0px 16px;
+  justify-content: space-evenly;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+  padding: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 8px;
+}
+
+#playingTo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#playingToScore {
+  font-size: 24px;
+  color: blue;
+  padding: 8px;
+  border: 0;
+}
+
+#btn-group {
+  display: flex;
+}
+
+button {
+  flex: 1;
+  padding: 16px 8px;
+  border: 0px;
+  margin: 1px;
+}
+
+button:first-child {
+  background: lightgreen;
+}
+button {
+  background: lightblue;
+}
+button:last-child {
+  background: rgb(285, 201, 206);
+}
